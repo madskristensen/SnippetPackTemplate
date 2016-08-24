@@ -23,7 +23,6 @@ grid. Set the following properties:
 - **Build action** : *Content*
 - **Include in VSIX**: *True*
 
-
 Read more about the possibilities with code snippets on
 [MSDN](https://msdn.microsoft.com/en-us/library/ms165392.aspx)
 
