@@ -7,6 +7,7 @@
     <TemplateInfo Path="CSharp\Extensibility"/>
     <Replacements Include="*.*" Exclude="*.vstemplate;*.fsproj;*.vbproj;*.jpg;*.png;*.ico;_preprocess.xml;_project.vstemplate.xml">
         <add key="SnippetPackTemplate" value="$safeprojectname$"/>
+        <add key="MyName" value="$username$" />
         <add key="7F494638-3F9D-476A-B660-FE46EC6433DC" value="$guid1$"/>
         <add key="800367d9-3754-49c6-a863-1fe65be05d32" value="$guid2$" />
     </Replacements>
