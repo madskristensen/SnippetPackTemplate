@@ -7,8 +7,10 @@ or get the [CI build](http://vsixgallery.com/extension/800367d9-3754-49c6-a863-1
 
 ---------------------------------------
 
-A Visual Studio project template for creating snippet packs
-targeting any supported language.
+A Visual Studio project template for creating code snippet packs
+targeting any supported language. The snippet pack will be an extension
+you can share with your team or upload to the Visual Studio extension
+gallery.
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
@@ -16,6 +18,7 @@ See the [change log](CHANGELOG.md) for changes and road map.
 
 - Create snippet pack extensions
 - Works with all supported languages like C#, VB, JavaScript, HTML etc.
+- The snippet packs will work in Visual Studio 2012, 2013 and 2015.
 
 ## How to use
 Create a new project and select the **Snippet Pack Extension**.
@@ -36,6 +39,10 @@ supporting snippets.
 
 To do that, open *Snippets/snippets.pkgdef* and follow the instructions
 found at the top of that file.
+
+You can also have snippets for multiple languages. To do that, add an
+additional entry in the *Snippets/snippets.pkgdef* for the new language
+and add an additional folder with snippets targeting that language.
 
 ### Changing name
 The *Snippets* folder contains a folder which has the name of your

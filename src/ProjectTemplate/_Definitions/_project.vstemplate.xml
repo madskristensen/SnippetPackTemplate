@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
   <TemplateData>
       <Name>Snippet Pack Extension</Name>
-      <Description>A project template for creating snippet pack extensions.</Description>
+      <Description>A Visual Studio project template for creating code snippet packs targeting any supported language. The snippet pack will be an extension you can share with your team or upload to the Visual Studio extension gallery.</Description>
       <DefaultName>SnippetPack</DefaultName>
 
       <ProjectType>CSharp</ProjectType>
