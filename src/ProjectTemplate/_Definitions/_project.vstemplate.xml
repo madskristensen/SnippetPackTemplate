@@ -1,0 +1,29 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+      <Name>Snippet Pack Extension</Name>
+      <Description>A project template for creating snippet pack extensions.</Description>
+      <DefaultName>SnippetPack</DefaultName>
+
+      <ProjectType>CSharp</ProjectType>
+      <ProjectSubType></ProjectSubType>
+      <CreateInPlace>true</CreateInPlace>
+      <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
+
+      <SortOrder>1000</SortOrder>
+      <CreateNewFolder>true</CreateNewFolder>
+      <ProvideDefaultName>true</ProvideDefaultName>
+      <LocationField>Enabled</LocationField>
+      <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+
+      <TemplateID>snippetpackextension</TemplateID>
+      <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+      <Project TargetFileName="$rootnamespace$.csproj" File="SnippetPackTemplate.csproj" ReplaceParameters="true">
+          <ProjectItem TargetFileName="readme.md" OpenInEditor="true" OpenOrder="1">readme.md</ProjectItem>
+          <Folder Name="Snippets" TargetFolderName="Snippets">
+              <ProjectItem TargetFileName="snippets.pkgdef" OpenInEditor="true" OpenOrder="2">snippets.pkgdef</ProjectItem>
+          </Folder>
+      </Project>
+  </TemplateContent>
+</VSTemplate>

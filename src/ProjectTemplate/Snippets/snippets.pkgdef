@@ -2,4 +2,4 @@
 ; Languages: "Basic", "C/C++", "CSharp", "CSS", "HTML", "JavaScript", "SQL_SSDT", "XML"
 
 [$RootKey$\Languages\CodeExpansions\JavaScript\Paths]
-"MySnippets"="$PackageFolder$\SnippetPackTemplate"
+"MySnippets"="$PackageFolder$\Name Of Snippet Pack"
