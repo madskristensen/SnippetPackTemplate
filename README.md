@@ -1,14 +1,14 @@
-# SnippetPackTemplate
+# Snippet Pack Template
 
 [![Build status](https://ci.appveyor.com/api/projects/status/rb32emmcyuwbdm8l?svg=true)](https://ci.appveyor.com/project/madskristensen/snippetpacktemplate)
 
-<!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/[GuidFromGallery])
+Download this extension from the [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/64da3455-9172-4bcd-a338-2ba706ebc955)
 or get the [CI build](http://vsixgallery.com/extension/800367d9-3754-49c6-a863-1fe65be05d32/).
 
 ---------------------------------------
 
-A snippet pack for Visual Studio
+A Visual Studio project template for creating snippet packs
+targeting any supported language.
 
 See the [change log](CHANGELOG.md) for changes and road map.
 
@@ -55,7 +55,7 @@ Read more about the possibilities with code snippets on
 [MSDN](https://msdn.microsoft.com/en-us/library/ms165392.aspx)
 
 ## Contribute
-Check out the [contribution guidelines](CONTRIBUTING.md)
+Check out the [contribution guidelines](.github/CONTRIBUTING.md)
 if you want to contribute to this project.
 
 For cloning and building this project yourself, make sure
