@@ -61,6 +61,14 @@ grid. Set the following properties:
 Read more about the possibilities with code snippets on
 [MSDN](https://msdn.microsoft.com/en-us/library/ms165392.aspx)
 
+### Examples
+Here are some of the snippet packs made by this template:
+
+- [JavaScript Snippet Pack](https://github.com/madskristensen/JavaScriptSnippetPack)
+- [HTML Snippet Pack](https://github.com/madskristensen/HtmlSnippetPack)
+- [React Snippet Pack](https://github.com/madskristensen/ReactSnippetPack)
+- [Gulp Snippet Pack](https://github.com/madskristensen/GulpSnippetPack)
+
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
 if you want to contribute to this project.
